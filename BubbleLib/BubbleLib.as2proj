@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="bin\BubbleLib.swf" />
+    <movie fps="30" />
+    <movie width="800" />
+    <movie height="600" />
+    <movie version="7" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option verbose="False" />
+    <option strict="False" />
+    <option infer="False" />
+    <option includePackage="src" />
+    <option useMain="False" />
+    <option useMX="False" />
+    <option warnUnusedImports="False" />
+    <option traceMode="Disable" />
+    <option traceFunction="" />
+    <option libraryPrefix="" />
+    <option excludeFile="" />
+    <option groupClasses="False" />
+    <option frame="1" />
+    <option keep="True" />
+  </build>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <!-- example: <compile path="..." /> -->
+  </compileTargets>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="assets\auditory\bubble_lose.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-1.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-2.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-3.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-4.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-5.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-6.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-7.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-8.png" bitmap="False" />
+    <asset path="assets\auditory\bubble-x.png" bitmap="False" />
+    <asset path="assets\visual\bubble_lose.png" bitmap="False" />
+    <asset path="assets\visual\bubble-1.png" bitmap="False" />
+    <asset path="assets\visual\bubble-2.png" bitmap="False" />
+    <asset path="assets\visual\bubble-3.png" bitmap="False" />
+    <asset path="assets\visual\bubble-4.png" bitmap="False" />
+    <asset path="assets\visual\bubble-5.png" bitmap="False" />
+    <asset path="assets\visual\bubble-6.png" bitmap="False" />
+    <asset path="assets\visual\bubble-7.png" bitmap="False" />
+    <asset path="assets\visual\bubble-8.png" bitmap="False" />
+    <asset path="assets\UI\back_one_player.png" bitmap="False" />
+    <asset path="assets\UI\compressor_ext.png" bitmap="False" />
+    <asset path="assets\UI\compressor_main.png" bitmap="False" />
+    <asset path="assets\UI\launcher30.png" bitmap="False" />
+    <asset path="assets\UI\compressor_alt.png" bitmap="False" />
+    <asset path="assets\UI\anim20.png" bitmap="False" />
+    <asset path="assets\UI\hurry_p1.png" bitmap="False" />
+    <asset path="assets\UI\loading.png" bitmap="False" />
+    <asset path="assets\UI\win_panel_1player.png" bitmap="False" />
+    <asset path="assets\UI\lose_panel.png" bitmap="False" />
+    <asset path="assets\visual\bubble-x.png" bitmap="False" />
+    <asset path="assets\UI\back_paused.png" bitmap="False" />
+    <asset path="assets\UI\pause_panel.png" bitmap="False" />
+    <asset path="assets\UI\life1.png" bitmap="False" />
+    <asset path="assets\UI\life10.png" bitmap="False" />
+    <asset path="assets\UI\life11.png" bitmap="False" />
+    <asset path="assets\UI\life12.png" bitmap="False" />
+    <asset path="assets\UI\life13.png" bitmap="False" />
+    <asset path="assets\UI\life14.png" bitmap="False" />
+    <asset path="assets\UI\life15.png" bitmap="False" />
+    <asset path="assets\UI\life16.png" bitmap="False" />
+    <asset path="assets\UI\life17.png" bitmap="False" />
+    <asset path="assets\UI\life18.png" bitmap="False" />
+    <asset path="assets\UI\life19.png" bitmap="False" />
+    <asset path="assets\UI\life2.png" bitmap="False" />
+    <asset path="assets\UI\life20.png" bitmap="False" />
+    <asset path="assets\UI\life21.png" bitmap="False" />
+    <asset path="assets\UI\life22.png" bitmap="False" />
+    <asset path="assets\UI\life23.png" bitmap="False" />
+    <asset path="assets\UI\life24.png" bitmap="False" />
+    <asset path="assets\UI\life25.png" bitmap="False" />
+    <asset path="assets\UI\life26.png" bitmap="False" />
+    <asset path="assets\UI\life27.png" bitmap="False" />
+    <asset path="assets\UI\life28.png" bitmap="False" />
+    <asset path="assets\UI\life29.png" bitmap="False" />
+    <asset path="assets\UI\life3.png" bitmap="False" />
+    <asset path="assets\UI\life30.png" bitmap="False" />
+    <asset path="assets\UI\life4.png" bitmap="False" />
+    <asset path="assets\UI\life5.png" bitmap="False" />
+    <asset path="assets\UI\life6.png" bitmap="False" />
+    <asset path="assets\UI\life7.png" bitmap="False" />
+    <asset path="assets\UI\life8.png" bitmap="False" />
+    <asset path="assets\UI\life9.png" bitmap="False" />
+    <asset path="assets\UI\back_start.png" bitmap="False" />
+  </library>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="include" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False">"$(ToolsDir)\igen\igen.exe" src include</postBuildCommand>
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+  </options>
+</project>
